@@ -6,7 +6,7 @@ LABEL maintainer "karzzift@gmail.com"
 ENV PYTHON_VERSION 3.6
 ENV OPENCV_VERSION 3.3.1
 # Install all dependencies for OpenCV 3.3.1
-RUN apt-get -y update && apt-get -y install 
+RUN apt-get -y update && apt-get -y install \
     python3-dev wget unzip \
     build-essential \
     cmake git pkg-config \
